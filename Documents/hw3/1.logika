@@ -1,0 +1,7 @@
+p V q |- q V p
+    {1. p V q       premise
+     2. {
+        3. q        assume
+        }
+     4. q V p    Vi1 3
+    }
